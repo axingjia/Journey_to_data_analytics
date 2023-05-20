@@ -628,7 +628,7 @@ Knowing the content and context of your data, as well as how it is structured, i
 
 
 # Course 4: Processing Data From Dirty to Clean
-A good analysis depends on the integrity of the data, and data integrity usually depends on using a common format. So it is important to double-check how dates are formatted to make sure what you think is December 10, 2020 isn’t really October 12, 2020, and vice versa.
+A good analysis depends on the integrity of the data, and **data integrity usually depends on using a common format. So it is important to double-check how dates are formatted to make sure what you think is December 10, 2020 isn’t really October 12, 2020, and vice versa.**
 
 Here are some other things to watch out for:
 
@@ -689,3 +689,23 @@ wrong data and go ahead with the analysis if your sample size is still large eno
 If your dataset was translated from a different language and some of the translations don’t make sense, ignore the data with bad translation and go ahead with the analysis of the other data.
 
 <img src="./insufficient_data.png" />
+
+
+How to use a sample size calculator
+In order to use a sample size calculator, you need to have the population size, confidence level, and the acceptable margin of error already decided so you can input them into the tool. If this information is ready to go, check out these sample size calculators below:
+
+Sample size calculator by surveymonkey.com: https://www.surveymonkey.com/mp/sample-size-calculator/
+
+Sample size calculator by raosoft.com: http://www.raosoft.com/samplesize.html
+
+What to do with the results
+After you have plugged your information into one of these calculators, it will give you a recommended sample size. Keep in mind, the calculated sample size is the minimum number to achieve what you input for confidence level and margin of error. If you are working with a survey, you will also need to think about the estimated response rate to figure out how many surveys you will need to send out. For example, if you need a sample size of 100 individuals and your estimated response rate is 10%, you will need to send your survey to 1,000 individuals to get the 100 responses you need for your analysis.
+
+Now that you have the basics, try some calculations using the sample size calculators and refer back to this reading if you need a refresher on the definitions. 
+
+
+* Margin of Error
+* https://goodcalculators.com/margin-of-error-calculator/
+* https://www.checkmarket.com/sample-size-calculator/#sample-size-margin-of-error-calculator
+
+
