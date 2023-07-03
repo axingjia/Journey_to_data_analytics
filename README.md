@@ -709,3 +709,163 @@ Now that you have the basics, try some calculations using the sample size calcul
 * https://www.checkmarket.com/sample-size-calculator/#sample-size-margin-of-error-calculator
 
 
+
+## Common data-cleaning pitfalls
+
+Common mistakes to avoid
+Not checking for spelling errors: Misspellings can be as simple as typing or input errors. Most of the time the wrong spelling or common grammatical errors can be detected, but it gets harder with things like names or addresses. For example, if you are working with a spreadsheet table of customer data, you might come across a customer named “John” whose name has been input incorrectly as “Jon” in some places. The spreadsheet’s spellcheck probably won’t flag this, so if you don’t double-check for spelling errors and catch this, your analysis will have mistakes in it. 
+
+Forgetting to document errors: Documenting your errors can be a big time saver, as it helps you avoid those errors in the future by showing you how you resolved them. For example, you might find an error in a formula in your spreadsheet. You discover that some of the dates in one of your columns haven’t been formatted correctly. If you make a note of this fix, you can reference it the next time your formula is broken, and get a head start on troubleshooting. Documenting your errors also helps you keep track of changes in your work, so that you can backtrack if a fix didn’t work. 
+
+Not checking for misfielded values: A misfielded value happens when the values are entered into the wrong field. These values might still be formatted correctly, which makes them harder to catch if you aren’t careful. For example, you might have a dataset with columns for cities and countries. These are the same type of data, so they are easy to mix up. But if you were trying to find all of the instances of Spain in the country column, and Spain had mistakenly been entered into the city column, you would miss key data points. Making sure your data has been entered correctly is key to accurate, complete analysis. 
+
+Overlooking missing values: Missing values in your dataset can create errors and give you inaccurate conclusions. For example, if you were trying to get the total number of sales from the last three months, but a week of transactions were missing, your calculations would be inaccurate.  As a best practice, try to keep your data as clean as possible by maintaining completeness and consistency.
+
+Only looking at a subset of the data: It is important to think about all of the relevant data when you are cleaning. This helps make sure you understand the whole story the data is telling, and that you are paying attention to all possible errors. For example, if you are working with data about bird migration patterns from different sources, but you only clean one source, you might not realize that some of the data is being repeated. This will cause problems in your analysis later on. If you want to avoid common errors like duplicates, each field of your data requires equal attention.
+
+Losing track of business objectives: When you are cleaning data, you might make new and interesting discoveries about your dataset-- but you don’t want those discoveries to distract you from the task at hand. For example, if you were working with weather data to find the average number of rainy days in your city, you might notice some interesting patterns about snowfall, too. That is really interesting, but it isn’t related to the question you are trying to answer right now. Being curious is great! But try not to let it distract you from the task at hand.  
+
+Not fixing the source of the error: Fixing the error itself is important. But if that error is actually part of a bigger problem, you need to find the source of the issue. Otherwise, you will have to keep fixing that same error over and over again. For example, imagine you have a team spreadsheet that tracks everyone’s progress. The table keeps breaking because different people are entering different values. You can keep fixing all of these problems one by one, or you can set up your table to streamline data entry so everyone is on the same page. Addressing the source of the errors in your data will save you a lot of time in the long run. 
+
+Not analyzing the system prior to data cleaning: If we want to clean our data and avoid future errors, we need to understand the root cause of your dirty data. Imagine you are an auto mechanic. You would find the cause of the problem before you started fixing the car, right? The same goes for data. First, you figure out where the errors come from. Maybe it is from a data entry error, not setting up a spell check, lack of formats, or from duplicates. Then, once you understand where bad data comes from, you can control it and keep your data clean.
+
+Not backing up your data prior to data cleaning: It is always good to be proactive and create your data backup before you start your data clean-up. If your program crashes, or if your changes cause a problem in your dataset, you can always go back to the saved version and restore it. The simple procedure of backing up your data can save you hours of work-- and most importantly, a headache. 
+
+Not accounting for data cleaning in your deadlines/process: All good things take time, and that includes data cleaning. It is important to keep that in mind when going through your process and looking at your deadlines. When you set aside time for data cleaning, it helps you get a more accurate estimate for ETAs for stakeholders, and can help you know when to request an adjusted ETA. 
+
+## Resource
+* https://support.microsoft.com/en-us/office/top-ten-ways-to-clean-your-data-2844b620-677c-47a7-ac3e-c2e157d1db19
+* https://support.google.com/a/users/answer/9604139?hl=en#zippy=
+
+
+# Data Visualization
+* https://informationisbeautiful.net/visualizations/what-makes-a-good-data-visualization/
+
+                Information: the data you are working with
+
+                Story: a clear and compelling narrative or concept
+
+                Goal: a specific objective or function for the visual
+
+                Visual form: an effective use of metaphor or visual expression
+
+* https://junkcharts.typepad.com/junk_charts/junk-charts-trifecta-checkup-the-definitive-guide.html
+
+
+## Pre-attentive attributes: marks and channels
+Creating effective visuals means leveraging what we know about how the brain works, and then using specific visual elements to communicate the information effectively. Pre-attentive attributes are the elements of a data visualization that people recognize automatically without conscious effort. The essential, basic building blocks that make visuals immediately understandable are called marks and channels. 
+
+### Marks
+Marks are basic visual objects like points, lines, and shapes. Every mark can be broken down into four qualities: 
+
+1. Position - Where a specific mark is in space in relation to a scale or to other marks
+2. Size - How big, small, long, or tall a mark is
+3. Shape - Whether a specific object is given a shape that communicates something about it
+4. Color - What color the mark is
+
+### Channels
+Channels are visual aspects or variables that represent characteristics of the data. Channels are basically marks that have been used to visualize data. Channels will vary in terms of how effective they are at communicating data based on three elements: 
+
+1. Accuracy - Are the channels helpful in accurately estimating the values being represented? 
+
+For example, color is very accurate when communicating categorical differences, like apples and oranges. But it is much less effective when distinguishing quantitative data like 5 from 5.5.
+
+2. Popout - How easy is it to distinguish certain values from others? 
+
+There are many ways of drawing attention to specific parts of a visual, and many of them leverage pre-attentive attributes like line length, size, line width, shape, enclosure, hue, and intensity.
+
+3. Grouping - How good is a channel at communicating groups that exist in the data? 
+
+Consider the proximity, similarity, enclosure, connectedness, and continuity of the channel.
+
+But, remember: the more you emphasize different things, the less that emphasis counts. The more you emphasize one single thing, the more that counts. 
+
+Design principles
+Once you understand the pre-attentive attributes of data visualization, you can go on to design principles for creating effective visuals. These design principles are important to your work as a data analyst because they help you make sure that you are creating visualizations that communicate your data effectively to your audience. By keeping these rules in mind, you can plan and evaluate your data visualizations to decide if they are working for you and your goals. And, if they aren’t, you can adjust them! 
+
+Principle
+
+Description
+
+Choose the right visual
+
+One of the first things you have to decide is which visual will be the most effective for your audience. Sometimes, a simple table is the best visualization. Other times, you need a more complex visualization to illustrate your point. 
+
+Optimize the data-ink ratio
+
+The data-ink entails focusing on the part of the visual that is essential to understanding the point of the chart. Try to minimize non-data ink like boxes around legends or shadows to optimize the data-ink ratio.
+
+Use orientation effectively
+
+Make sure the written components of the visual, like the labels on a bar chart, are easy to read. You can change the orientation of your visual to make it easier to read and understand. 
+
+Color
+
+There are a lot of important considerations when thinking about using color in your visuals. These include using color consciously and meaningfully, staying consistent throughout your visuals, being considerate of what colors mean to different people, and using inclusive color scales that make sense for everyone viewing them.
+
+Numbers of things
+
+Think about how many elements you include in any visual. If your visualization uses lines, try to plot five or fewer. If that isn’t possible, use color or hue to emphasize important lines. Also, when using visuals like pie charts, try to keep the number of segments to less than seven since too many elements can be distracting.
+
+### Avoiding misleading or deceptive charts 
+
+As you are considering what kind of visualization to create and how to design it, you will want to be sure that you are not creating misleading or deceptive charts. As you have been learning, data analysis provides people with insights and knowledge they can use to make decisions. So, it is important that the visualizations you create are communicating your data accurately and truthfully. Here are some common errors to avoid so that your visualizations aren’t accidentally misleading: 
+
+What to avoid
+
+Why
+
+Cutting off the y-axis
+
+Changing the scale on the y-axis can make the differences between different groups in your data seem more dramatic, even if the difference is actually quite small. 
+
+Misleading use of a dual y-axis
+
+Using a dual y-axis without clearly labeling it in your data visualization can create extremely misleading charts. 
+
+Artificially limiting the scope of the data
+
+If you only consider the part of the data that confirms your analysis, your visualizations will be misleading because they don’t take all of the data into account. 
+
+Problematic choices in how data is binned or grouped
+
+It is important to make sure that the way you are grouping data isn’t misleading or misrepresenting your data and disguising important trends and insights. 
+
+Using part-to-whole visuals when the totals do not sum up appropriately 
+
+If you are using a part-to-whole visual like a pie chart to explain your data, the individual parts should add up to equal 100%. If they don’t, your data visualization will be misleading. 
+
+Hiding trends in cumulative charts
+
+Creating a cumulative chart can disguise more insightful trends by making the scale of the visualization too large to track any changes over time. 
+
+Artificially smoothing trends
+
+Adding smooth trend lines between points in a scatterplot can make it easier to read that plot, but replacing the points with just the line can actually make it appear that the point is more connected over time than it actually was. 
+
+## Examples
+* https://datavizcatalogue.com/#google_vignette. Not sure where to start with data visualization? This catalogue features a range of different diagrams, charts, and graphs to help you find the best fit for your project. As you navigate each category, you will get a detailed description of each visualization as well as its function and a list of similar 
+* https://visme.co/blog/best-data-visualizations/ In this collection of images, explore the best examples of data that gets made into a stunning visual. Simply click on the link below each image to get an in-depth view of each project, and learn why making data visually appealing is so important.
+* https://www.tableau.com/learn/articles/best-data-visualization-blogs Each link will lead you to a blog that is a fountain of information on everything from data storytelling to graphic data. Get your next great idea or just browse through some visual inspiration.  
+* https://informationisbeautiful.net/wdvp/gallery-2019/ Founded by David McCandless, this gallery is dedicated to helping you make clearer, more informed visual decisions based on facts and data. These projects are made by students, designers, and even data analysts to help you gain insight into how they have taken their own data and turned it into visual storytelling.
+* https://lookerstudio.google.com/gallery?category=visualization Information is vital, but information presented in a digestible way is even more useful. Browse through this interactive gallery and find examples of different types of data communicated visually. You can even use the data studio tool to create your own data-driven visual.
+
+### Engage your audience
+Remember: an important component of being a data analyst is the ability to communicate your findings in a way that will appeal to your audience. Data visualization has the ability to make complex (and even monotonous) information easily understood, and knowing how to utilize data visualization is a valuable skill to have. Your goal is always to help the audience have a conversation with the data so your visuals draw them into the conversation. This is especially true when you have to help your audience engage with a large amount of data, such as the flow of goods from one country to other parts of the world.
+
+---
+
+Reviewing each of these visual examples, where do you notice that they fit in relation to your type of data? One way to answer this is by evaluating patterns in data. Meaningful patterns can take many forms, such as:
+
+Change: This is a trend or instance of observations that become different over time. A great way to measure change in data is through a line or column chart.
+
+Clustering: A collection of data points with similar or different values. This is best represented through a distribution graph.
+
+Relativity: These are observations considered in relation or in proportion to something else. You have probably seen examples of relativity data in a pie chart.
+
+Ranking: This is a position in a scale of achievement or status. Data that requires ranking is best represented by a column chart.
+
+Correlation: This shows a mutual relationship or connection between two or more things. A scatterplot is an excellent way to represent this type of data pattern.
+
+## Studying your data
+Data analysts are tasked with collecting and interpreting data as well as displaying data in a meaningful and digestible way. Determining how to visualize your data will require studying your data’s patterns and converting it using visual cues. Feel free to practice your own charts and data in spreadsheets. Simply input your data in the spreadsheet, highlight it, then insert any chart type and view how your data can be visualized based on what you choose.
